@@ -5,5 +5,6 @@ def main(s):
         s: str
     Returns:
         int: return answer
-    """
-    return
+    """ 
+    import string
+print(string.punctuation)
