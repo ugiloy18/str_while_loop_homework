@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    return 
+    a = 0
+    i = 0
+    while i < len(s):
+        if s[i].isdigit():
+            a += int(s[i])
+        i += 1
+    return a 
+print(main('54abs567'))    
